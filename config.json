@@ -1,45 +1,41 @@
 {
-	"cyramza-global": {
+	"global-iva": {
 		"clm-id":"VeevaCLM",
-		"product-vod":"GSW-RAM GLOBAL",
-		"vcs-url":"https://subversion.assembla.com/svn/cyramza-lung-global-iva/trunk/",
-		"vcs-user":"r.mccaulsky-clarke",
-		"vcs-password":"Monday@325",
+		"product-vod":"[Product Name]",
+		"vcs-url":"[SVN Repository URL]",
+		"vcs-user":"[SVN Username]",
+		"vcs-password":"[SVN Password]",
         "rev-number":"true",
         "ftp":{
-                "ftp-server": "vf4.vod309.com",
-                "ftp-user": "jsaicanadal@veeva.inventiv",
-                "ftp-password": "jsaicanada1010",
-                "ftp-path": "/",
-                "content-user": "gswwestl@veeva.inventiv",
-                "content-password": "gswwest1234"
+                "ftp-server": "[Veeva FTP Server IP]",
+                "ftp-user": "[Veeva FTP Username]",
+                "ftp-password": "[Veeva FTP Password]",
+                "ftp-path": "/"
             },
         "content": [
             {
-                "content-user": "gswwestl@veeva.inventiv",
-                "content-password": "gswwest1234"
+                "content-user": "[Veeva Content Username]",
+                "content-password": "[Veeva Content Password]"
             }
         ]
     },
-	"cyramza-us": {
+	"us-iva": {
 		"clm-id":"VeevaCLM",
-		"product-vod":"GSW-RAM GLOBAL",
-		"vcs-url":"https://subversion.assembla.com/svn/cyramza-lung-global-iva/trunk/",
-		"vcs-user":"user",
-		"vcs-password":"password",
-        "rev-number":"false",
+		"product-vod":"[Product Name]",
+		"vcs-url":"[SVN Repository URL]",
+		"vcs-user":"[SVN Username]",
+		"vcs-password":"[SVN Password]",
+	    "rev-number":"true",
         "ftp": {
-                "ftp-server": "vf4.vod309.com",
-                "ftp-user": "jsaicanadal@veeva.inventiv",
-                "ftp-password": "jsaicanada1010",
-                "ftp-path": "/",
-                "content-user": "gswwestl@veeva.inventiv",
-                "content-password": "gswwest1234"
+	        "ftp-server": "[Veeva FTP Server IP]",
+	        "ftp-user": "[Veeva FTP Username]",
+	        "ftp-password": "[Veeva FTP Password]",
+	        "ftp-path": "/"
             },
         "content": [
             {
-                "content-user": "gswwestl@veeva.inventiv",
-                "content-password": "gswwest1234"
+            "content-user": "[Veeva Content Username]",
+            "content-password": "[Veeva Content Password]"
             }
         ]
     }
