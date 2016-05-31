@@ -1,0 +1,46 @@
+{
+	"cyramza-global": {
+		"clm-id":"VeevaCLM",
+		"product-vod":"GSW-RAM GLOBAL",
+		"vcs-url":"https://subversion.assembla.com/svn/cyramza-lung-global-iva/trunk/",
+		"vcs-user":"r.mccaulsky-clarke",
+		"vcs-password":"Monday@325",
+        "rev-number":"true",
+        "ftp":{
+                "ftp-server": "vf4.vod309.com",
+                "ftp-user": "jsaicanadal@veeva.inventiv",
+                "ftp-password": "jsaicanada1010",
+                "ftp-path": "/",
+                "content-user": "gswwestl@veeva.inventiv",
+                "content-password": "gswwest1234"
+            },
+        "content": [
+            {
+                "content-user": "gswwestl@veeva.inventiv",
+                "content-password": "gswwest1234"
+            }
+        ]
+    },
+	"cyramza-us": {
+		"clm-id":"VeevaCLM",
+		"product-vod":"GSW-RAM GLOBAL",
+		"vcs-url":"https://subversion.assembla.com/svn/cyramza-lung-global-iva/trunk/",
+		"vcs-user":"user",
+		"vcs-password":"password",
+        "rev-number":"false",
+        "ftp": {
+                "ftp-server": "vf4.vod309.com",
+                "ftp-user": "jsaicanadal@veeva.inventiv",
+                "ftp-password": "jsaicanada1010",
+                "ftp-path": "/",
+                "content-user": "gswwestl@veeva.inventiv",
+                "content-password": "gswwest1234"
+            },
+        "content": [
+            {
+                "content-user": "gswwestl@veeva.inventiv",
+                "content-password": "gswwest1234"
+            }
+        ]
+    }
+}
